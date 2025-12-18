@@ -181,7 +181,7 @@ export default function Features(props: FeaturesProps) {
         </div>
 
         {/* Pricing Section */}
-        <div className="text-center mb-16">
+        <div id="pricing" className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             <span data-editable="pricing.title">{config.pricing.title}</span>
           </h2>

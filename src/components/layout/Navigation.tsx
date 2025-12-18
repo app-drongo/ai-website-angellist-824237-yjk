@@ -9,7 +9,9 @@ import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 const DEFAULT_NAVIGATION = {
   brand: 'AngelList',
   items: [
+    { label: 'Home', href: '#hero' },
     { label: 'Features', href: '#features' },
+    { label: 'Pricing', href: '#pricing' }
   ],
   cta: {
     text: 'Get Started',
